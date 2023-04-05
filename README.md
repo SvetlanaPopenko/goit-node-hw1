@@ -5,9 +5,11 @@
 https://monosnap.com/file/29Ayjlqq5WPrDezaWLuKDjjNxrGSXO;
 
 Отримуємо контакт по id
+
 https://monosnap.com/file/vfgHNPyXstWKu8YqqRHJCSseP95Up1;
 
 Додаємо контакт
+
 https://monosnap.com/file/hALmEyzMmuC31eelUi2HmjfmUHlzfa;
 
 Видаляємо контакт
