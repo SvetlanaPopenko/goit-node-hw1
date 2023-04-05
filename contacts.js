@@ -30,13 +30,14 @@ async function removeContact(contactId) {
       contacts.findIndex((contact) => contact.id === contactId),
       1
     );
-    return updateContacts(contacts);
+    updateContacts(contacts);
+    return "Contact removed";
   } catch (error) {
     console.log(error);
   }
 }
 
-async function addContact({name, email, phone}) {
+async function addContact({ name, email, phone }) {
   try {
     const contacts = await listContacts();
     const newContact = { name, email, phone, id: nanoid(8) };
